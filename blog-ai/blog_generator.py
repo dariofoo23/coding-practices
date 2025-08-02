@@ -31,23 +31,3 @@ while keep_writing:
     print(generate_blog(paragraph_topic))
   else:
     keep_writing = False
-
-
-
-"""client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
-)"""
-
-"""
-client = OpenAI(
-    ai_api_key = os.getenv("ai_apiKey")
-)
-
-response = client.responses.create(
-  model="gpt-4o-mini",
-  input="write a haiku about ai",
-  store=True,
-)
-
-print(response.output_text);
-"""
